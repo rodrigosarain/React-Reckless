@@ -1,9 +1,0 @@
-.containerSaludo {
-  display: flex;
-  padding-left: 30px;
-  font-weight: bolder;
-  font-size: large;
-  align-items: center;
-  /* border: 1px solid rebeccapurple; */
-  color: rgb(211, 137, 0);
-}

@@ -1,13 +1,13 @@
 import Badge from "@mui/material/Badge";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-
-export const CartWidget = () => {
+import { Link } from "react-router-dom";
+const CartWidget = () => {
   return (
-    <div>
+    <Link to="/cart">
       <Badge badgeContent={0} showZero color="primary">
         <ShoppingCartIcon color="action" />
       </Badge>
-    </div>
+    </Link>
   );
 };
 
