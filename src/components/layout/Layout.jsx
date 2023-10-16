@@ -4,13 +4,12 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
   return (
     <div>
-      <div style={{ height: "10vh" }}>
+      <div>
         <Navbar />
       </div>
-      <div style={{ minHeight: "80vh" }}>
+      <div>
         <Outlet />
       </div>
-      <div style={{ height: "10vh" }}></div>
     </div>
   );
 };

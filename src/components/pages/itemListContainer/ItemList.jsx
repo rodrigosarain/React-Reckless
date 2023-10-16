@@ -1,8 +1,9 @@
 import ProductCard from "../../common/productCard/ProductCard";
+import "./Item.css";
 
 const ItemList = ({ items }) => {
   return (
-    <section style={{ display: "flex", justifyContent: "space-evenly" }}>
+    <section className="ProductCards">
       {items.map((item) => {
         return <ProductCard key={item.id} item={item} />;
       })}

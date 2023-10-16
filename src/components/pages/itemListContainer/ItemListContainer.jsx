@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { products } from "../../../productsMock";
-
 import ItemList from "./ItemList";
 import { useParams } from "react-router-dom";
 
@@ -8,7 +7,7 @@ const ItemListContainer = () => {
   const [items, setItems] = useState([]);
 
   const { categoryName } = useParams();
-  console.log(categoryName ? "estoy intentando filtrar" : "Estoy en el home");
+  console.log("Estoy en el shop");
 
   useEffect(() => {
     const productosFiltrados = products.filter(

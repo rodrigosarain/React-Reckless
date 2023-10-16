@@ -11,10 +11,16 @@ export const Navbar = () => {
         <Link to="/">
           <li>Home</li>
         </Link>
-        <Link to="/">
+        <Link to="/Shop">
           <li>Shop</li>
         </Link>
-        <Link to="/">
+        <Link to="/category/Top">
+          <li>Tops</li>
+        </Link>
+        <Link to="/category/Pants">
+          <li>Pants</li>
+        </Link>
+        <Link to="/Contact">
           <li>Contact</li>
         </Link>
       </ul>

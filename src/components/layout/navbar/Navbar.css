@@ -38,3 +38,11 @@
 .categories li:hover {
   cursor: pointer;
 }
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: black;
+}

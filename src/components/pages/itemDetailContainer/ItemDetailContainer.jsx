@@ -29,7 +29,6 @@ const ItemDetailContainer = () => {
       quantity: cantidad,
     };
     console.log("este es el producto que se agrega", obj);
-    // ACA NAVEGAMOS
     navigate("/cart");
   };
 

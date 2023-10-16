@@ -1,14 +1,9 @@
-import { useState } from "react";
-
-export const Home = () => {
-  const [counter, funcionCounter] = useState();
-  console.log(counter);
-  console.log(funcionCounter);
-
+const Home = () => {
   return (
     <div>
-      {/* <h1>{counter}</h1>
-      <button onClick={sumar}>Sumar</button> */}
+      <h1>Estoy en el home</h1>
     </div>
   );
 };
+
+export default Home;
