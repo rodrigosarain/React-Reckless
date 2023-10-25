@@ -26,7 +26,7 @@ export let products = [
     stock: 3,
     description:
       "Blow your drama... Remera crop con box fit, holgada para mas comodidad",
-    category: "urbanas",
+    category: "Top",
     img: "https://res.cloudinary.com/dduq6njfw/image/upload/v1697325073/otlulpakmmnopv5jzhtv.png",
     discount: 15000,
   },
