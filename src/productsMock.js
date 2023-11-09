@@ -26,7 +26,7 @@ export let products = [
     stock: 3,
     description:
       "Blow your drama... Remera crop con box fit, holgada para mas comodidad",
-    category: "Top",
+    category: "urbanas",
     img: "https://res.cloudinary.com/dduq6njfw/image/upload/v1697325073/otlulpakmmnopv5jzhtv.png",
     discount: 15000,
   },
@@ -35,7 +35,7 @@ export let products = [
     title: "Smoke T-Shirt",
     price: 17800,
     stock: 5,
-    description: "Fumar mata, Remera crop, estampado azul con serigrafia",
+    description: "Fumar mata, Remera crop estampado azul con serigrafia",
     category: "Top",
     img: "https://res.cloudinary.com/dduq6njfw/image/upload/v1697325676/qyngibwbsiurzbm2wikt.jpg",
     discount: 13000,

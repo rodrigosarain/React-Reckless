@@ -20,9 +20,6 @@ export const Navbar = () => {
         <Link to="/category/Pants">
           <li>Pants</li>
         </Link>
-        <Link to="/Contact">
-          <li>Contact</li>
-        </Link>
       </ul>
       <CartWidget />
     </nav>

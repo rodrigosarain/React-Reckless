@@ -3,7 +3,7 @@
   justify-content: center;
   padding: 90px 50px;
   gap: 124px;
-  /* border: 1px solid gray; */
+  border: 1px solid gray;
 }
 
 .details {
@@ -36,7 +36,7 @@
 .details__prices {
   margin-top: 40px;
   display: flex;
-  margin-bottom: 34px;
+  margin-bottom: 24px;
   align-items: center;
   gap: 20px;
 }

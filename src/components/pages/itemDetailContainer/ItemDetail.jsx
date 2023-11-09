@@ -16,8 +16,7 @@ export const ItemDetail = ({ productSelected, onAdd }) => {
               <span className="details__discount">20%</span>{" "}
             </p>
             <p className="details__before"> {productSelected.price}</p>
-          </div>
-          <div>
+
             <CounterContainer stock={productSelected.stock} onAdd={onAdd} />
           </div>
         </div>
