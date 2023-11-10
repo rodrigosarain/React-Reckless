@@ -1,5 +1,5 @@
 import ProductCard from "../../common/productCard/ProductCard";
-
+import "./Item.css";
 const ItemList = ({ items }) => {
   return (
     <section className="ProductCards">

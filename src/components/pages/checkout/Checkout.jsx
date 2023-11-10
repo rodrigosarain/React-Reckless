@@ -7,11 +7,11 @@ const Checkout = () => {
     email: "",
   });
 
-  //   const [errors, setErrors] = useState({
-  //     nombre: null,
-  //     apellido: null,
-  //     email: null,
-  //   });
+  const [errors] = useState({
+    nombre: null,
+    apellido: null,
+    email: null,
+  });
 
   const handleChange = (e) => {
     setUserInfo({ ...userInfo, [e.target.name]: e.target.value });
@@ -22,6 +22,8 @@ const Checkout = () => {
 
     console.log(userInfo);
   };
+
+  console.log(errors);
 
   return (
     <div>
@@ -35,7 +37,7 @@ const Checkout = () => {
           placeholder="Nombre"
         />
         <span style={{ color: "crimson", fontSize: " 0.5rem" }}>
-          {/* {errors.nombre} */}
+          {errors.nombre}
         </span>
         <input
           type="text"
@@ -44,7 +46,7 @@ const Checkout = () => {
           placeholder="Apellido"
         />
         <span style={{ color: "crimson", fontSize: " 0.5rem" }}>
-          {/* {errors.apellido} */}
+          {errors.apellido}
         </span>
 
         <input
@@ -54,7 +56,7 @@ const Checkout = () => {
           placeholder="email"
         />
         <span style={{ color: "crimson", fontSize: " 0.5rem" }}>
-          {/* {errors.email} */}
+          {errors.email}
         </span>
 
         <button>Enviar</button>
@@ -62,8 +64,6 @@ const Checkout = () => {
           Cancelar
         </button>
       </form>
-
-      {/* <button onClick={}></button> */}
     </div>
   );
 };
