@@ -1,0 +1,1 @@
+Bienvenidos a esta simulacion rapida, sencilla de un e comerce funcional moderno, Es una simulacion un poco pobre pero cumple con las caracteristicas comunes de una compra por pagina web que como producto final te entregaria una id (codigo de seguimiento de envio de pedido ej). Sin nada mas que decir espero les guste

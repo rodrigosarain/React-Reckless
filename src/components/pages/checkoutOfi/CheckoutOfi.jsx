@@ -7,7 +7,7 @@ import { db } from "../../../firebaseConfig";
 
 import { collection, addDoc, updateDoc, doc } from "firebase/firestore";
 import { Link } from "react-router-dom";
-
+import "./ofi.css";
 const CheckoutOficial = () => {
   const [userData, setUserData] = useState({
     name: "",
@@ -51,31 +51,38 @@ const CheckoutOficial = () => {
   return (
     <>
       {orderId ? (
-        <div>
+        <div className="id-container">
           <h2>Gracias por su compra, su N° de comprobante es {orderId}</h2>
-          <Link to="/">Seguir comprando</Link>
+          <div className="kep">
+            <Link to="/Shop">Seguir comprando</Link>
+          </div>
         </div>
       ) : (
-        <form onSubmit={handleSubmit}>
+        <form className="formik" onSubmit={handleSubmit}>
           <input
+            className="formik"
             type="text"
             placeholder="Ingresa tu nombre"
             name="name"
             onChange={handleChange}
           />
           <input
+            className="formik"
             type="text"
             placeholder="Ingresa tu telefono"
             name="phone"
             onChange={handleChange}
           />
           <input
+            className="formik"
             type="text"
             placeholder="Ingresa tu email"
             name="email"
             onChange={handleChange}
           />
-          <button type="submit">Comprar</button>
+          <button className="button" type="submit">
+            Comprar
+          </button>
         </form>
       )}
     </>

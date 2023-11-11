@@ -1,0 +1,25 @@
+.id-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.kep {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.formik {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  gap: 5px;
+}
+
+.button {
+  color: white;
+  background-color: rgb(224, 146, 0);
+  width: 100px;
+  height: 40px;
+}

@@ -2,13 +2,12 @@ import Cart from "../components/pages/cart/Cart";
 import Checkout from "../components/pages/checkout/Checkout";
 import ItemDetailContainer from "../components/pages/itemDetailContainer/ItemDetailContainer";
 import ItemListContainer from "../components/pages/itemListContainer/ItemListContainer";
-import Home from "../components/pages/home/Home.jsx";
-import CheckoutOficial from "../components/pages/checkoutOfi/CheckoutOfi.jsx";
+import CheckoutOfi from "../components/pages/checkoutOfi/CheckoutOfi.jsx";
 export const routes = [
   {
     id: "home",
     path: "/",
-    Element: Home,
+    Element: ItemListContainer,
   },
   {
     id: "cart",
@@ -37,7 +36,7 @@ export const routes = [
   },
   {
     id: "checkout",
-    path: "/checkout",
-    Element: CheckoutOficial,
+    path: "/checkoutOfi",
+    Element: CheckoutOfi,
   },
 ];
